@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "sb-demo-32/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

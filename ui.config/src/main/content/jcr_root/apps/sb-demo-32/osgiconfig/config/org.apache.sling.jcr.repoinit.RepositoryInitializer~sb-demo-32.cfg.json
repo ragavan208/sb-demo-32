@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/sb-demo-32",
+        "create path (nt:unstructured) /content/dam/sb-demo-32/jcr:content",
+        "set properties on /content/dam/sb-demo-32/jcr:content",
+        "set cq:conf{String} to /conf/sb-demo-32",
+        "set jcr:title{String} to \"Storybook demo 32\"",
+        "end"
+    ]
+}
