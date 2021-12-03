@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-03T04:08:22.376Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sb-demo-32/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="sb-demo-32/components/page"
+        title="button">
+        <root jcr:primaryType="nt:unstructured">
+            <container jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <emptyheading
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Story Content for 'empty' story"
+                        sling:resourceType="sb-demo-32/components/title"/>
+                    <empty
+                        jcr:primaryType="nt:unstructured"
+                        jcr:storybookStory="button|Empty"
+                        sling:resourceType="sb-demo-32/components/button"/>
+                    <shorttextheading
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Story Content for 'shortText' story"
+                        sling:resourceType="sb-demo-32/components/title"/>
+                    <shorttext
+                        jcr:lastModified="{Date}2021-12-03T04:08:18.735Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:storybookStory="button|short Text"
+                        jcr:title="Short text"
+                        sling:resourceType="sb-demo-32/components/button"/>
+                    <longtextheading
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Story Content for 'longText' story"
+                        sling:resourceType="sb-demo-32/components/title"/>
+                    <longtext
+                        jcr:lastModified="{Date}2021-12-03T04:08:22.374Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:storybookStory="button|Long Text"
+                        jcr:title="Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                        sling:resourceType="sb-demo-32/components/button"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
