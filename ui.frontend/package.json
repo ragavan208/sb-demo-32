@@ -15,7 +15,7 @@
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "sync": "aemsync -d -p ../ui.apps/src/main/content",
     "watch": "webpack-dev-server --config ./webpack.dev.js --env.writeToDisk & watch 'clientlib' ./dist & aemsync -w ../ui.apps/src/main/content",
-    "storybook": "start-storybook -p 4501"
+    "storybook": "start-storybook -p 6005"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

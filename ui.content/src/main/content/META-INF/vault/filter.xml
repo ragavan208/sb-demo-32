@@ -2,6 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/sb-demo-32" mode="merge"/>
     <filter root="/content/sb-demo-32" mode="merge"/>
+    <filter root="/content/sb-demo-32-design-system" mode="merge"/>
     <filter root="/content/dam/sb-demo-32/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/sb-demo-32" mode="merge"/>
 </workspaceFilter>
